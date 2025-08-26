@@ -4,6 +4,8 @@ This is an **Unofficial Web Port** of the free Godot horror game, [**A Bite at F
 
 ## How to play
 
+Note: Mobile users require a Wireless Mouse.
+
 There are 2 methods:
 
 ### Vercel
