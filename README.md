@@ -6,8 +6,8 @@ This is an **Unofficial Web Port** of the free Godot horror game, [**A Bite at F
 
 There are 2 methods:
 
-### GitHub Pages
-Go to https://nick088official.github.io/A-Bite-at-Freddys-Web-Port/godot/ABaF.html
+### Vercel
+Go to https://a-bite-at-freddys-web-port.vercel.app/godot/ABaF.html
 
 ### Local Server
 1. Click Code -> Download ZIP -> Extract the Zip.
@@ -83,7 +83,20 @@ For uploading the repository to GitHub, it's essential to use Git Large File Sto
     git add .
     git commit -m "Add Godot web export, Git LFS tracking"
     ```
-5. Create a new repository on GitHub and push your local changes. Verify on GitHub that `.pck` and `.wasm` files show "Stored with Git LFS".
+4. Create a new repository on GitHub and push your local changes. Verify on GitHub that `.pck` and `.wasm` files show "Stored with Git LFS".
+    
+### Part E: Deploying to Vercel
+1. Go to your [Vercel Dashboard](https://vercel.com/dashboard).
+2. Click "Add New..." > "Project".
+3. Select "Import Git Repository" and choose the GitHub repository you set up in Part C.
+4. Once the project is created, go to its "Settings" tab, go to Git -> Git Large File Storage (LFS) and ensure it is enabled. This is critical for Vercel to download your large `.pck` and `.wasm` files.
+5. Save your Vercel project settings. This will automatically trigger a new deployment. If not, go to the "Deployments" tab and manually click "Redeploy".
+6. Open the Vercel deployment URL in your browser. The game should load past the initial loading bar. Check your browser's Developer Tools (F12) Console for errors and Network tab for correct HTTP headers.
+
+
+## Why is it hosted on Vercel and not GitHub Pages?
+
+Because GitHub Pages does not support Git LFS used for the large ``.pck`` and ``.wasm`` files.
 
 
 ## Why did you make it?
