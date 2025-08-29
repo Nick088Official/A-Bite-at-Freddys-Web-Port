@@ -152,8 +152,10 @@
                 font-family: sans-serif;
             }
             #touch-tutorial-content {
+                background-color: #2c3e50;
+                border-radius: 10px;
                 text-align: center;
-                padding: 20px;
+                padding: 20px 25px;
                 max-width: 90%;
             }
             #touch-tutorial-content h2 { margin-top: 0; }
@@ -164,7 +166,7 @@
                 font-size: 1.2em;
                 border-radius: 8px;
                 border: none;
-                background-color: #007bff;
+                background-color: #3498db;
                 color: white;
                 cursor: pointer;
             }
