@@ -91,7 +91,7 @@
             <!-- This overlay greets new players and explains the controls -->
             <div id="touch-tutorial-overlay">
                 <div id="touch-tutorial-content">
-                    <h2>Welcome! Touch Controls:</h2>
+                    <h2>Touch Controls for ABaF:</h2>
                     <ul>
                         <li><b>Move Cursor:</b> Drag anywhere on screen. The cursor will follow your finger directly.</li>
                         <li><b>Left Click:</b> Tap the 'L' button.</li>
